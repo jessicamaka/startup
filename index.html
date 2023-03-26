@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apple music Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/a35092cf6f.js" crossorigin="anonymous"></script>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>  
+      <div class="content">
+       <div class="nav-bar"> <class="icon-bar"> <href="#"><i class="fa-brands fa-apple" style="color: #00030a;"></i> Apple
+         <class="topnav">
+          <a href="#premium" class="split1">Premium</a>
+          <a href="#discover" class="split2">Discover</a>
+          <a href="#about" class="split3" >About</a>
+          <a href="#home" class="split4"> Home</a> 
+        </div> 
+        <div class="slogan"> 
+          <h5>Apple Music <i class="fa-brands fa-apple" style="color: #00030a;"></i></h5>
+          <h1>Feed your soul with Apple Music</h1>
+         We bring artists from all over the world for you to listen to.<br>
+          Discover new songs each day.<br>
+          Download with <i class="fa-solid fa-laptop"></i> <i class="fa-solid fa-mobile-screen-button"></i>
+         </h6> 
+        
+        </div>
+      <div class="box">
+          <h1>To Subscribe</h1>
+        <form action="/action_page.php" onsubmit="myFunction()" > 
+                <h3>Fill the form</h3>
+             <div class="name"><label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required></div> <br>
+            <div class="email"> <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email" required> </div> <br>
+           <div class="phone"> <label for="phone">Phone number</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone number" required ></div> <br>
+            <div class="gender"> Gender: <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"> 
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male"><div> <br>
+           <div class="password"> <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="password" required> </div> <br>
+            <input type="submit" value="Submit" id="submit" >
+  </form>
+</div>
+    
+        <script>
+          function myFunction() {alert ('Form submitted successfully');
+        }
+        </script>
+          </div>
+    </body>
+</html>
