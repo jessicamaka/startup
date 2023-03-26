@@ -41,7 +41,8 @@ background-repeat: no-repeat;}
         color: white;
         padding: 12px;
         font-size: 12px;}
-@media  (max-width: 300px)
+        
+@media (orientation:landscape)
   {.icon-bar {
     display:  inline;
     font-size: 17px;
