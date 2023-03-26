@@ -17,7 +17,52 @@ margin: 50px 20px 50px 20px;
 background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-05-at-5.24.46-PM.png?w=725&h=727&crop=1);
 background-repeat: no-repeat;}
 .topnav button:hover {background-color: rgb(14, 129, 129) ;}
-   .split1 {
+ 
+.split1 {
+    float: right;
+    background-color: #181a19;
+    color: white;
+    padding: 12px;
+    font-size: 12px; }
+.split2{
+    float: right;
+    background-color: #080808;
+    color: white;
+    padding: 12px;
+    font-size: 12px;}
+.split3 {
+    float: right;
+    background-color: rgb(203, 203, 228);
+    color: white;
+    padding: 12px;
+    font-size: 12px;}
+.split4{
+    float: right;
+    background-color: rgb(203, 203, 228);
+    color: white;
+    padding: 12px;
+    font-size: 12px;}   
+
+@media (orientation:landscape)
+  {.icon-bar {
+    display:  inline;
+    font-size: 17px;
+    overflow: auto; /* Overflow due to float */
+    padding: 12px;
+ text-align: left;
+
+}
+.nav-bar{position: relative;
+bottom: 90px;}
+
+  .content {padding: 100px;
+border-radius: 10px;
+border-style:  inset;
+margin: 50px 20px 50px 20px;
+background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-05-at-5.24.46-PM.png?w=725&h=727&crop=1);
+background-repeat: no-repeat;}
+.topnav button:hover {background-color: rgb(14, 129, 129) ;}
+      .split1 {
         float: right;
         background-color: #181a19;
         color: white;
@@ -41,50 +86,6 @@ background-repeat: no-repeat;}
         color: white;
         padding: 12px;
         font-size: 12px;}
-        
-@media (orientation:landscape)
-  {.icon-bar {
-    display:  inline;
-    font-size: 17px;
-    overflow: auto; /* Overflow due to float */
-    padding: 12px;
- text-align: left;
-
-}
-.nav-bar{position: relative;
-bottom: 90px;}
-
-  .content {padding: 100px;
-border-radius: 10px;
-border-style:  inset;
-margin: 50px 20px 50px 20px;
-background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-05-at-5.24.46-PM.png?w=725&h=727&crop=1);
-background-repeat: no-repeat;}
-.topnav button:hover {background-color: rgb(14, 129, 129) ;}
-    .split1 {
-         float: right;
-         background-color: #181a19;
-         color: white;
-         padding: 12px;
-         font-size: 12px; }
-     .split2{
-         float: right;
-         background-color: #080808;
-         color: white;
-         padding: 12px;
-         font-size: 12px;}
-    .split3 {
-         float: right;
-         background-color: #04AA6D;
-         color: white;
-         padding: 12px;
-         font-size: 12px;}
-     .split4{
-         float: right;
-         background-color: #04AA6D;
-         color: white;
-         padding: 12px;
-         font-size: 12px;}
          .slogan {text-align: right;}
          h6{width: 30%rem;
         margin-bottom: auto;
