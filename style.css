@@ -5,14 +5,15 @@ body {background-color: rgb(14, 129, 129)}
     overflow: auto; /* Overflow due to float */
     padding: 12px;
  text-align: left;
-
+margin-bottom: 50px;
 }
 .nav-bar{position: relative;
-bottom: 90px;}
+bottom: 90px;
+}
 
-  .content {padding: 100px;
-border-radius: 10px;
-border-style:  inset;
+  .content {padding: 90px;
+    border-radius: 10px;
+    border-style:  inset;
 margin: 50px 20px 50px 20px;
 background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-05-at-5.24.46-PM.png?w=725&h=727&crop=1);
 background-repeat: no-repeat;}
@@ -42,13 +43,13 @@ background-repeat: no-repeat;}
     color: white;
     padding: 12px;
     font-size: 12px;}   
-
-
-         .slogan {text-align: right;}
+      
+         .slogan {margin-left: 700px;
+        }
          h6{width: 30%rem;
         margin-bottom: auto;
     padding-bottom: 40px;}
-         .box {color: rgb(1, 1, 32);
+         .box {color: black;
             border-color: rgb(107, 107, 231);
             border-style: none;
             border-radius: 20px;
@@ -56,61 +57,57 @@ background-repeat: no-repeat;}
     text-align: right;
 padding-left: 50px;
 padding-top: 70px;}
-h3 {text-align: right;}
-@media (max-width: 300px) {body {background-color: rgb(14, 129, 129)}
-.icon-bar {
-    display:  inline;
-    font-size: 17px;
-    overflow: auto; /* Overflow due to float */
-    padding: 12px;
- text-align: left;
+p {text-align: right;}
+h1 {color: rgb(155, 155, 238);}
+ a:hover {background-color: rgb(52, 52, 114);}
+@media only screen and (max-width: 900px)
+{body {background-color: rgb(14, 129, 129)}
+
+.split1 {width: 100px;
+position: absolute;
+right: 0;
+display: block;
+top: 90px;
 
 }
-.nav-bar{position: relative;
-bottom: 90px;}
+.split2 {width: 100px;
+    position: absolute;
+    right: 0;
+    display: block;
+    top: 60px;
+    
+    }
+.split3 {width: 100px;
+    position: absolute;
+    right: 0;
+   display: block;
+   top: 30px;
+    }
+.split4 {width: 100px;
+    position: absolute;
+right: 0;
+display: block;
+top: 10px;
+bottom: 10px;
+}
 
-  .content {padding: 100px;
-margin: 50px 20px 50px 20px;
-background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-05-at-5.24.46-PM.png?w=725&h=727&crop=1);
-background-repeat: no-repeat;}
-.topnav button:hover {background-color: rgb(14, 129, 129) ;}
- 
-.split1 {
-    float: right;
-    background-color: #181a19;
-    color: white;
-    padding: 12px;
-    font-size: 12px; }
-.split2{
-    float: right;
-    background-color: #080808;
-    color: white;
-    padding: 12px;
-    font-size: 12px;}
-.split3 {
-    float: right;
-    background-color: rgb(203, 203, 228);
-    color: white;
-    padding: 12px;
-    font-size: 12px;}
-.split4{
-    float: right;
-    background-color: rgb(203, 203, 228);
-    color: white;
-    padding: 12px;
-    font-size: 12px;}   
+.box {position: absolute;
+display: block;
+text-align: center;
+margin: auto;
+margin-left: 40px;}
+.content {width: 100% rem;
+background-size: cover;
+border: none;}
+.slogan {display: block;
+text-align: center;
+margin: auto;}
+p {text-align: center;}
 
-
-         .slogan {text-align: right;}
-         h6{width: 30%rem;
-        margin-bottom: auto;
-    padding-bottom: 40px;}
-    .box {color: rgb(1, 1, 32);
-    border-color: rgb(107, 107, 231);
-    border-style: none;
-    border-radius: 20px;
-margin-left: 70px;
-text-align: auto;
-padding-right: 50px;
-padding-top: 70px;}
-h3 {text-align: right;}}
+}
+@media only screen and (max-width: 1200px) {.box {position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;}
+}

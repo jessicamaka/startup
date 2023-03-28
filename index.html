@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
     <head>
         <title>Apple music Form</title>
@@ -12,7 +12,7 @@
     <body>  
       <div class="content">
        <div class="nav-bar"> <class="icon-bar"> <href="#"><i class="fa-brands fa-apple" style="color: #00030a;"></i> Apple
-         <class="topnav">
+         <class="topnav" id="menulist">
           <a href="#premium" class="split1">Premium</a>
           <a href="#discover" class="split2">Discover</a>
           <a href="#about" class="split3" >About</a>
@@ -29,7 +29,7 @@
       <div class="box">
           <h1>To Subscribe</h1>
         <form action="/action_page.php" onsubmit="myFunction()" > 
-                <h3>Fill the form</h3>
+                <p>Fill the form</p>
              <div class="name"><label for="name">Name</label>
             <input type="text" name="name" id="name" placeholder="Name" required></div> <br>
             <div class="email"> <label for="email">Email Address</label>
@@ -49,6 +49,8 @@
         <script>
           function myFunction() {alert ('Form submitted successfully');
         }
+        
+
         </script>
           </div>
     </body>
