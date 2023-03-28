@@ -7,6 +7,7 @@ body {background-color: rgb(14, 129, 129)}
  text-align: left;
 margin-bottom: 50px;
 }
+.icon {display: none;}
 .nav-bar{position: relative;
 bottom: 90px;
 }
@@ -17,8 +18,7 @@ bottom: 90px;
 margin: 50px 20px 50px 20px;
 background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-05-at-5.24.46-PM.png?w=725&h=727&crop=1);
 background-repeat: no-repeat;}
-.topnav button:hover {background-color: rgb(14, 129, 129) ;}
- 
+
 .split1 {
     float: right;
     background-color: #181a19;
@@ -61,51 +61,68 @@ p {text-align: right;}
 h1 {color: rgb(155, 155, 238);}
  a:hover {background-color: rgb(52, 52, 114);}
 @media only screen and (max-width: 900px)
-{body {background-color: rgb(14, 129, 129)}
-
+{body {background-color: rgb(14, 129, 129);
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/03/Screen-Shot-2021-03-05-at-5.24.46-PM.png?w=725&h=727&crop=1);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}
 .split1 {width: 100px;
-position: absolute;
+position:absolute;
 right: 0;
 display: block;
-top: 90px;
+top: 95px;
 
 }
 .split2 {width: 100px;
     position: absolute;
     right: 0;
     display: block;
-    top: 60px;
+    top: 65px;
     
     }
 .split3 {width: 100px;
     position: absolute;
     right: 0;
    display: block;
-   top: 30px;
+   top: 35px;
     }
 .split4 {width: 100px;
     position: absolute;
 right: 0;
 display: block;
-top: 10px;
+top: 20px;
 bottom: 10px;
 }
-
-.box {position: absolute;
+.icon {width: 100px;
+    position: absolute;
+right: 0;
 display: block;
+top: 10px;
+bottom: 10px;
+cursor: pointer;}
+.box {position: relative;
+display:block ;
 text-align: center;
 margin: auto;
-margin-left: 40px;}
+left: 40px rem;
+flex-direction: inherit;
+}
 .content {width: 100% rem;
-background-size: cover;
-border: none;}
+background-image: none;
+border: none;
+margin-bottom: 100px;
+
+}
 .slogan {display: block;
 text-align: center;
 margin: auto;}
+h5{padding-top: 10px;}
 p {text-align: center;}
+.icon{display: block;}
 
 }
-@media only screen and (max-width: 1200px) {.box {position: absolute;
+@media only screen and (max-width: 1200px) 
+{.box {position: absolute;
     display: block;
     text-align: center;
     margin: auto;

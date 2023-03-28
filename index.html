@@ -12,11 +12,12 @@
     <body>  
       <div class="content">
        <div class="nav-bar"> <class="icon-bar"> <href="#"><i class="fa-brands fa-apple" style="color: #00030a;"></i> Apple
-         <class="topnav" id="menulist">
+         <div class="topnav" id="menulist">
           <a href="#premium" class="split1">Premium</a>
           <a href="#discover" class="split2">Discover</a>
           <a href="#about" class="split3" >About</a>
           <a href="#home" class="split4"> Home</a> 
+         </div>
         </div> 
         <div class="slogan"> 
           <h5>Apple Music <i class="fa-brands fa-apple" style="color: #00030a;"></i></h5>
@@ -50,7 +51,12 @@
           function myFunction() {alert ('Form submitted successfully');
         }
         
-
+  function classtoggle(){const topnavs = document. querySelectorAll('topnav')
+topnavs.forEach(topnav => topnav.classList.toggle ('.icon'))
+}
+document.querySelector ('.icon')
+.addEventListener('click', classtoggle);
+  
         </script>
           </div>
     </body>
